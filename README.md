@@ -1,10 +1,4 @@
-# [Headless Dropshipping Starter](https://headlessdropshipping.com)
-
-🧦 Build your own Headless eCommerce storefront with [Next.js](https://nextjs.org/) and [Snipcart](https://snipcart.com/), and deliver swag powered by [Printful](https://printful.com/). End to end commerce, styled using [Tailwind CSS](https://tailwindcss.com/) and deployed on [Vercel](https://vercel.com/).
-
-[Demo](https://demo.headlessdropshipping.com) &middot; [Watch video demo](https://www.youtube.com/watch?v=epcysiCJ3l4) &middot; [Learn more](https://headlessdropshipping.com)
-
-![Headless Dropshipping](https://user-images.githubusercontent.com/950181/116987157-9f3cdc00-acc6-11eb-97ff-b8134edd4b65.png)
+# [Outdoor Store](https://headlessdropshipping.com)
 
 ## Features
 
@@ -17,7 +11,6 @@
 - Fully Typed
 - Recover abandoned carts
 - One click deploy
-- ... and more coming soon!
 
 ## Setup
 
@@ -122,8 +115,6 @@ Make a copy of your `Public API Key` for use later. You'll need it when deployin
 It's important you configure your **Default Website Domain** so Snipcart can successfully validate product prices.
 
 You may also want to add other domains, and subdomains if you're working locally with this.
-
-The domain you provide here will be your live URL, such as `headlessdropshipping.com`.
 
 You should also configure a Redirect URL. I have this set to the root domain of my store.
 
