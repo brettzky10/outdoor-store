@@ -8,7 +8,7 @@ const LandingHero = () => {
             alt="Hero Image"
             src="/hero-1.png"
             width={1920}
-            height={600}
+            height={800}
         />
     </div>
   )
