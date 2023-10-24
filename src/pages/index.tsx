@@ -7,7 +7,10 @@ import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
 
 import ProductGrid from "../components/ProductGrid";
+import LandingFooter from "../components/landing/landing-footer";
 import LandingHero from "../components/landing/landing-hero";
+import LandingConvert from "../components/landing/landing-convert";
+import LandingTestimonial from "../components/landing/landing-testimonial";
 
 type IndexPageProps = {
   products: PrintfulProduct[];
@@ -16,15 +19,20 @@ type IndexPageProps = {
 const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
   <>
     <LandingHero/>
+    
     <div className="max-w-6xl mx-auto px-6">
-      <div className="text-center pb-6 md:pb-12">
-        <h1 className="text-xl md:text-3xl lg:text-5xl font-bold py-5 md:py-8">
-          All Products
+      <div className="text-center pb-6 md:pb-12 md:pt-5">
+        <h1 className="text-xl md:text-3xl lg:text-5xl font-bold py-5 md:py-8 text-violet-600">
+          Browse Products
         </h1>
       </div>
 
       <ProductGrid products={products} />
     </div>
+    <LandingTestimonial/>
+    <LandingConvert/>
+    <LandingFooter/>
+    
   </>
 );
 
